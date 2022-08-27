@@ -33,6 +33,19 @@ num2 = input("Please type an integer and press enter: ")
 print(num1+num2)
 
 ####Answer is 23. Because all of the inputs taken are in STRING. This is a default case. If we want to give int, just add 
+
+
+
+###List
+list = [1,2,3,4,5]
+print(list)
+print(list[3]) ##To find the value at 4th place
+
+
+
+saarc = ["Bangladesh","India","Sri Lanka","Nepal"]
+print(saarc)
+print(len(saarc)) #To find the length of the list
 #'int' before the input!
 
 num1 = int (input())
