@@ -70,3 +70,25 @@ if country in saarc:
     print(country, " is a member of saarc!")
 else:
     print(country," is not a member of saarc!")
+
+
+    
+    
+    
+    
+    
+    
+    
+# If-else exercise (marks)
+marks = int(input("Please enter your marks: "))
+
+if marks >= 80:
+    grade = "A+"
+elif marks >=70:
+    grade = "A"
+elif marks >=60:
+    grade = "A-"
+else:
+    grade = "B"
+
+print("Your grade is: ",grade)
