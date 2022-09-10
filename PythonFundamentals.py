@@ -51,3 +51,22 @@ print(len(saarc)) #To find the length of the list
 num1 = int (input())
 num2 = int (input())
 print(num1+num2)
+
+
+
+
+
+
+
+
+
+##10/09/2022
+
+
+##Exercise with list(SAARC Countries)
+saarc = ['Bangladesh','India','Sri Lanka']
+country = input("Enter the name of the country: ")
+if country in saarc:
+    print(country, " is a member of saarc!")
+else:
+    print(country," is not a member of saarc!")
